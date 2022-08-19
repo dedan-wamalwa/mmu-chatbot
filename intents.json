@@ -1,0 +1,221 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "location",
+      "patterns": [ 
+        "where is MMU located",
+        "Where is the university located?",
+        "Location?"
+      ],
+      "responses": [
+        "We are located near Ongata Rongai along Magadi road",
+        "Along Magadi road near Ongaata Rongai"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you",
+        "How can i reach you",
+        "Contact details",
+        "what are your contact details"
+      ],
+      "responses": [
+        "You may chat with me here😁😁",
+        "Call us on 020 7252000",
+        "You can visit https://www.mmu.ac.ke for more details or email us at info@mmu.ac.ke"
+      ]
+    },
+    {
+      "tag": "faculties",
+      "patterns": [
+        "How many faculties are there at MMU",
+        "What is the number of faculties?",
+        "What faculties are there at your university?",
+        "how many faculties do you have?"
+      ],
+      "responses": [
+        "We have six faculties :1. Engineering 2. Media and Communication 3. Science and Technology 4. Business and Economics 5. Computing and Information Technology 6. Social Sciences",
+        "We have six faculties. Head on to our website https://www.mmu.ac.ke for more info"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered at MMU",
+        "Which courses are offered at MMU",
+        "Courses taught at the university",
+        "Courses you offer at the university"
+      ],
+      "responses": [
+        "We offer a variety of courses in IT, Engineering,Media and Communication and business. Visit us at https://www.mmu.ac.ke for more info",
+        "Please head to our website www.mmu.ac.ke or visit us to get a copy of a bronchure with courses offered."
+
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much is the tuition fee",
+        "tuition fee",
+        "How much is your tuition fee",
+        "how much do you charge per semester",
+        "semester fees"
+      ],
+      "responses": [
+        "Tuition fee ranges from 65,000-90,000 per semester for undergraduate courses, 200,000-250000 for master's degree and 40,000-69,000 for diploma courses ",
+        "Contact us at 'info@mmu.ac.ke' to get detailed copy of fee structure"
+      ]
+    },
+    {
+      "tag": "accomodation",
+      "patterns": [
+        "Do you offer accomodation?",
+        "Does the university have student residences",
+        "Does the school have hostels",
+        "does the university accomodation for students"
+      ],
+      "responses": [
+        "The school offers affordable on-campus hostels at the main campus",
+        "Students can reside at our hostels in the main campus",
+        "Accomodation is available on a first come basis"
+      ]
+    },
+    {
+      "tag": "undergraduate_duration",
+      "patterns": [
+        "How long does undergraduate course take",
+        "length of an undergraduate course",
+        "how long does it take to complete undergraduate degree?",
+        "duration for degree course",
+        "how long does it take to finish a degree"
+      ],
+      "responses": [
+        "Hi, Undergraduate engineering courses take 5 years while the rest take 4 years."
+      ]
+    },
+    {
+      "tag": "diploma_duration",
+      "patterns": [
+        "How long does a diploma course take",
+        "length of diploma course",
+        "how long does it take to complete diploma course?",
+        "what is the duration of a diploma course",
+        "diploma course duration"
+      ],
+      "responses": [
+        "Diploma courses take 3 years to complete"
+      ]
+    },
+    {
+      "tag": "certificate_duration",
+      "patterns": [
+        "How long does a certificate course take",
+        "length of certificate course",
+        "how long does it take to complete certificate course?",
+        "what is the duration of a certificate course"
+      ],
+      "responses": [
+        "Certficate courses take 1 year to complete",
+        "It takes one year to complete a certificte course"
+
+      ]
+    },
+    {
+      "tag": "campuses",
+      "patterns": [
+        "How many campuses do you have?",
+        "do you have a town campus"
+      ],
+      "responses": [
+        "We have two campuses, Our main campus and Town campus"
+      ]
+    },
+    {
+      "tag": "employers",
+      "patterns": [
+        "Who are some of your notable employers?",
+        "Notable employers?"
+      ],
+      "responses": [
+        "Our notable employers include Safaricom, Delloitte, Cellulant, SMG ,RMS and Kenya Power",
+        "Safaricom, Cellulant, Delloitte, SMG ,RMS ,Kenya Power are some of the notable employers to our students"
+      ]
+    },
+    {
+      "tag": "semester_duration",
+      "patterns": [
+        "How long does a semester last",
+        "Semester duration",
+        "Duration of a semester"
+      ],
+      "responses": [
+        "A semester takes 16 weeks to complete",
+        "A whole semester lasts about 4 months"
+
+      ]
+    },
+    {
+      "tag": "account_number",
+      "patterns": [
+        "Whats the school bank account number",
+        "bank account number to make payment",
+        "how can i make payment at the bank"
+      ],
+      "responses": [
+       "Make payment through Equity bank:0610262187946  KCB :1104513447 or MPESA paybill 522384"
+      ]
+    },
+    {
+      "tag": "engineering_courses",
+      "patterns": [
+        "What engineering courses are offered",
+        "Engineering courses offered at MMU"
+      ],
+      "responses": [
+       "We offer Engineering courses in Civil Engineering, Mechanical Engineering, Electrical and Telecommunication Engineering, Instrumentation and Control and Mechatronics Engineering"
+      ]
+    },
+    {
+      "tag": "engineering_courses",
+      "patterns": [
+        "What engineering courses are offered",
+        "Engineering courses offered at MMU"
+      ],
+      "responses": [
+        "We offer Engineering courses in Civil Engineering, Mechanical Engineering, Electrical and Telecommunication Engineering, Instrumentation and Control and Mechatronics Engineering"
+      ]
+    }
+  ]
+}
