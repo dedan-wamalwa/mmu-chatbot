@@ -1,5 +1,7 @@
 # mmu-chatbot
 chatbot that responds to FAQ's in multimedia university of kenya
+
+
 SET UP
 1. clone the repo..
 2. create a virtual environment 
