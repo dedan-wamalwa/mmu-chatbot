@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mmu chatbot</title>
+</head>
+<style>
+    .paragraph{
+        font-size: large;
+    }
+    img{
+        width: 2cm;
+        height: 2cm;
+    }
+</style>
+<body>
+<!-- landing page  -->
+<div>
+    <center><h2 style="color: blue; font-size: 35px;">Multimedia University of Kenya</h2><br>
+    <p class="paragraph">Hello, head on to <a href="https://www.mmu.ac.ke/"> www.mmu.ac.ke </a> for more information</p><br>
+    <p class="paragraph">Contact Details- Email :info@mmu.ac.ke | Telephone : 020 725 2000</p></center>
+</div>
+<!-- chatbot box -->
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">MMU Chat support</h4>
+                    <p class="chatbox__description--header">Hi, How can I help you?</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write something...">
+                <button class="chatbox__send--footer send__button">Send</button> <!--send msgs within the chat window-->
+            </div>
+        </div>
+        <!-- open and close the chat box  -->
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbot-img2.png') }}" /></button>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        $SCRIPT_ROOT = {{request.script_root|tojson |safe }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
