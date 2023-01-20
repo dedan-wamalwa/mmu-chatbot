@@ -1,5 +1,5 @@
 # mmu-chatbot
-chatbot that responds to FAQ's in multimedia university of kenya
+A chatbot that responds to FAQ's in a higher learning institution( multimedia university of kenya)
 
 
 SET UP
